@@ -13,7 +13,7 @@ const Product = () => {
   const dispatch = useDispatch();
   const addProduct = (product) => {
     dispatch(addCart(product));
-    console.log("product added..", product);
+    // console.log("product added..", product);
   };
 
   useEffect(() => {

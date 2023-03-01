@@ -18,7 +18,7 @@ const Products = () => {
         setData(await response.clone().json());
         setFilter(await response.json());
         setLoading(false);
-        console.log(filter);
+        // console.log(filter);
       }
       return () => {
         componentMounted = false;
@@ -93,7 +93,7 @@ const Products = () => {
           </button>
         </div>
         {filter.map((product) => {
-          console.log(product);
+          // console.log(product);
           return (
             <>
               <div className="col-md-3 mb-4">
